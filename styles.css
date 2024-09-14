@@ -90,19 +90,23 @@ z-index: 1;
   position: relative;
   opacity: 20%;
   filter: grayscale(100%);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    z-index: 1;
+  background-image: radial-gradient(black, transparent);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  z-index: 1;
 }
 
+
 .blackfadeleft{
-  background: radial-gradient(circle at center, white 0, black, grey 100%);
-  background-color: #E0E0E0;
+  background: radial-gradient(closest-side, rgb(113, 113, 113), rgb(88, 88, 88), rgb(0, 0, 0));
+  position: absolute;
+  width: fit-content;
   align-items: left;
   position: relative;
-  z-index: 2;
+  margin-left: 26%;
+  z-index: 3;
 }
 
 #image-guitar1{
@@ -114,7 +118,7 @@ z-index: 1;
     opacity: 100%;
     width: 50%;
     position: relative;
-    z-index: 3;
+    z-index: 9999999;
 }
 
 #text-image{
