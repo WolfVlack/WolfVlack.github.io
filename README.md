@@ -1,5 +1,6 @@
 # WolfVlack.github.io
-This where I will put my projects
+
+this is a Landing Product web page project im working on
 
 
 · Fix objects positions by screen resolution
